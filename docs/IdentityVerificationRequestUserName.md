@@ -1,0 +1,14 @@
+# IdentityVerificationRequestUserName
+
+You can use this field to pre-populate the user's legal name; if it is provided here, they will not be prompted to enter their name in the identity verification attempt.
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**given_name** | **str** | A string with at least one non-whitespace character, with a max length of 100 characters. | 
+**family_name** | **str** | A string with at least one non-whitespace character, with a max length of 100 characters. | 
+**any string name** | **bool, date, datetime, dict, float, int, list, str, none_type** | any string name can be used but the value must be the correct type | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
